@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+{% from "_formhelper.html" import render_field %}
+<form method=post action="{{ url_for('user.access') }}">
+    {{ form.hidden_tag() }}
+    {% for field in form %}
+        {{ render_field(field) }}
+    {% endfor %}
+</form>
+{% endblock %}

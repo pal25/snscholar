@@ -1,0 +1,1 @@
+from snscholar.app import create_app

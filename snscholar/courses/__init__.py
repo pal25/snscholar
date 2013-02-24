@@ -1,0 +1,1 @@
+from snscholar.courses.views import course

@@ -1,0 +1,1 @@
+from snscholar.frontend.views import frontend

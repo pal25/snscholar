@@ -1,0 +1,1 @@
+from snscholar.users.views import user
